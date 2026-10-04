@@ -2516,7 +2516,7 @@ ENV ALL YOUR STUFF (3 min):
    export default {
      async fetch(req) {
        return new Response(JSON.stringify({
-         DATA_KEY: 'your-tmdb-key',
+         DATA_KEY: '3fd2be6f0c70a2a598f084ddfb75487c',
          SUPABASE: { url: 'https://xxxx.supabase.co', anon: 'eyJ...' },
          AI: { openaiKey: 'sk-...' },
          ANNOUNCEMENTS: { url: 'https://yourworker.workers.dev/announce', pollMinutes: 60 },
